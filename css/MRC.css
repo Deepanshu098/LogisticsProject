@@ -1,0 +1,355 @@
+@import url("../MRC-Global.html");
+@import url("../MRC-Licensing.html");
+@import url("../MRC-mrc.html");
+
+@media(max-width:576px) {
+
+    .mobile-header {
+        display: block;
+    }
+
+    .desktop-header {
+        display: none;
+    }
+}
+
+@media(min-width:576px) {
+    .mobile-header {
+        display: none;
+    }
+
+    .desktop-header {
+        display: block;
+    }
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.input {
+    outline: none;
+    background-color: #905f11;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #905f11;
+    padding: 5px;
+}
+
+.input-msg {
+    outline: none;
+    background-color: #905f11;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #905f11;
+    padding: 5px;
+    vertical-align: text-bottom;
+}
+
+.list {
+    text-decoration: none;
+    list-style-type: none;
+
+    color: black;
+    margin-top: 10px;
+}
+
+.fs-10 {
+    font-size: 10px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-55 {
+    width: 55%;
+}
+
+
+
+.btn {
+    outline: none;
+    background-color: #fed136;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #fed136;
+    padding: 5px;
+    vertical-align: text-bottom;
+}
+
+.contact {
+    outline: none;
+    background-color: #fed136;
+    border-radius: 10px;
+    border: 1px solid #fed136;
+    color: white;
+    margin-right: 10px;
+    padding: 5px 10px;
+}
+
+.txt {
+    width: 800px;
+    height: 200px;
+    margin-top: 70px;
+}
+
+.bg-licensing {
+    background-color: #eeeeee;
+}
+
+.bg-section {
+    background-color: #eeeeee;
+}
+
+.bg-footer {
+    background-color: #fd9b00;
+}
+
+.list-mrc {
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    padding: 4px;
+    list-style-type: none;
+    width: 200px;
+}
+
+
+.test {
+    width: 100px;
+    height: 300px;
+    background-color: red;
+}
+
+.certi {
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.global {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 2px;
+    background-color: white;
+    border: 1px solid #dfdfdf;
+}
+
+.global:hover {
+    transition: border .2s ease-in-out;
+    cursor: pointer;
+}
+
+.keycontact {
+    /* height: 200px; */
+    padding: 40px 0px;
+}
+
+.bg-licensing {
+    background-color: #e7e7e7;
+}
+
+
+.freight {
+    border: 1px solid orange;
+
+    color: orange;
+    text-align: center;
+    vertical-align: baseline;
+
+    font-size: 20px;
+    padding: 50px 0px 50px 70px;
+    /* height: 130px; */
+}
+
+.freight-bg1 {
+    background-image: url(../images/land.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.freight-bg2 {
+    background-image: url(../images/sea.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.freight-bg3 {
+    background-image: url(../images/air.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.freight-bg4 {
+    background-image: url(../images/warehouse.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.freight-bg5 {
+    background-image: url(../images/logistics.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.freight-bg6 {
+    background-image: url(../images/broker.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.fs-80 {
+    font-size: 70px;
+    font-weight: lighter;
+    font-family: serif;
+}
+
+.slidertext {
+    color: white;
+    text-align: left;
+    position: relative;
+    left: 0%;
+    bottom: 50%;
+    top: 50%;
+}
+
+.txt {
+    color: white;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    /* left: 15%;
+    bottom: 23%; */
+    font-weight: normal;
+}
+
+
+.pos-ab {
+    position: absolute;
+}
+
+.r {
+    position: relative;
+    bottom: 145px;
+    right: 25%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+/* services card */
+
+.bg-services {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 10px;
+}
+
+.btn-more {
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px 0px;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-weight: bolder;
+}
+
+
+
+.imgslider-bg1 {
+    background-image: url(../images/slide1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+}
+
+.imgslider-bg2 {
+    background-image: url(../images/slide2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+}
+
+.imgslider-bg3 {
+    background-image: url(../images/slide3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+}
+
+.imgslider-bg4 {
+    background-image: url(../images/slide4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+}
+
+
+.keycontactdiv {
+    height: 420px;
+    box-shadow: 0px 5px 10px gray;
+}
+
+
+.card_body_1 {
+    background-color: rgb(254, 209, 54);
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    left: 25%;
+    bottom: 25%;
+    display: inline-block;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    margin-left: 12px;
+    margin-top: 5px;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+}
+
+.card_body_1:hover~.tooltiptext {
+    visibility: visible;
+}
